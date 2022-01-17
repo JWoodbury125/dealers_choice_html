@@ -52,14 +52,24 @@ img#nlt{
     float: right;
     border-radius: 40%;
 }
+.nav{
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(233, 190, 80);
+    border: solid 1px maroon;
+}
 
-.pages button{
-    border: solid 3px maroon;
-    height: 50px;
-    width: 300px;
-    display: block;
-    margin: 25px;
-    font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+.nav li {
+    flex: 1;
+    display: flex;
+    font-size: 22px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav li a{
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
 }
