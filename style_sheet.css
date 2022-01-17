@@ -1,0 +1,65 @@
+#container{
+    border: solid 2px gold;
+    height: 100%;
+    background: linear-gradient(maroon, white, gold);
+    background-image: url('NLT_img.png');
+    background-size: 100%;
+    background-position: center;
+    padding: 10px;
+
+}
+.head-box{
+    border: solid 2px white;
+    background-color:maroon;
+    height: 35%;
+}
+#headline{
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 53px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 5rem;
+    animation-iteration-count: infinite;
+
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+img{
+    height: 75%;
+    width: 25%;
+    float: right;
+    margin: 2rem;
+    padding: 5px;
+    border: solid 1px white;
+}
+img#berf{
+    float: left;
+}
+img#nlt{
+    float: right;
+    border-radius: 40%;
+}
+
+.pages button{
+    border: solid 3px maroon;
+    height: 50px;
+    width: 300px;
+    display: block;
+    margin: 25px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
